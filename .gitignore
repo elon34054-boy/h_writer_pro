@@ -1,0 +1,29 @@
+# Dart/Flutter build artifacts
+.dart_tool/
+.flutter_plugins
+.flutter_plugins_dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+dist/
+coverage/
+
+# IDE
+.vscode/
+.idea/
+*.iml
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Test results
+test-results/
+
+# Binaries
+*.bin
+*.exe
+*.dll
+*.dylib
+*.so

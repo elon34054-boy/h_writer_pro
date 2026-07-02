@@ -1,0 +1,25 @@
+name: h_writer_pro
+description: H Writer Pro - Professional word processor with ultra-low memory consumption. Pure Dart core with zero Flutter dependencies.
+publish_to: none
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  # Core Dart dependencies only
+  # NO Flutter dependencies in core/
+  
+dev_dependencies:
+  test: ^1.24.0
+  lints: ^2.1.0
+
+# Project structure
+# lib/
+#   core/          - Pure Dart, zero UI dependencies
+#     domain/      - Entities, repositories, use cases
+#     data/        - Models, parsers, exporters, implementations
+#     utils/       - Core utilities
+#   presentation/  - Flutter UI layer
+#     bloc/        - State management
+#     screens/
+#     widgets/
